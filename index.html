@@ -9,10 +9,60 @@
         color: maroon;
         margin-left: 40px;
     } 
+      
+      body {
+			font-size: 80%;
+			color: #000; /* Note that borders that do not have an explicit color will take on this color declaration */
+			margin: 0;
+			padding: 0;
+		}
+	
+		p {
+			padding: 4em;
+			margin: 2em;
+		}
+		
+		code {
+			font: 1em/1.5 Courier;
+		}
+	
+		#border1 {	
+			border: 1px solid;
+			
+		}
+		
+		#border2 {
+			border: 1px dotted;
+		}
+		
+		#border3 {
+			border: 2px dashed #ccc;
+		}
+		
+		#border4 {
+			border: solid;
+			border-width: 1px 5px 10px 15px;
+		}
+		
+		#border5 {
+			border: 5px;
+			border-style: solid dotted dashed solid;
+		}
+		
+		#border6 {
+			border: 5px solid;
+			border-color: black #444 #888 #ccc;
+		}
+		
+		#borderCollie {
+			border: 3px dotted #06c;
+		}
     </style>
   </head>
   <body>
     <h1 class="a">Hello World</h1>
+    <!-- Link back to HTML Dog: -->
+	<p id="borderCollie"><a href="http://www.htmldog.com/examples/"><img src="http://www.htmldog.com/badge1.gif" alt="HTML Dog"></a></p>
   </body>
 </html>
 
